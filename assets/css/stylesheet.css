@@ -1,0 +1,49 @@
+.flexbox-container {
+  display:flex;
+}
+.flexbox-item
+{
+  width : 200px;
+  margin: 10px;
+  border: 3px solid black;
+  background-color: azure;
+  flex: 2 1 auto;
+
+  
+}
+
+.flexbox-item1
+{
+  min-height: 300px;
+  align-items: center;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-content: stretch;
+  justify-content: center;
+}
+.lblheader
+{
+padding-left: 150;
+font-size: 50px;
+  
+}
+.blogdetail
+{
+  padding-right: 100;
+}
+
+.lblsummit
+{
+  padding-left: 50;
+  
+  padding-right: 50;
+  margin-left: 100;
+  margin-top:50;
+}
+
+.footer { 
+  position: absolute; 
+  bottom: 0; 
+  left: 0; 
+  z-index: 10;
+}
